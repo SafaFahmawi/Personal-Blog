@@ -1,0 +1,109 @@
+
+.service-section {
+    display: grid;
+    grid-template-columns: repeat(2, 450px); /* Ensures two columns */
+    margin: auto;
+    justify-content: center; /* Center the grid */
+    margin-top: 100px;
+}
+
+.box {
+    background-color: #1c1c18;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 80px;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box:hover{
+    background-color: rgb(85, 133, 110);
+    animation: slideToTop 1s ease-out; /* Apply the animation */
+}
+
+@keyframes slideToTop {
+    0% {
+        transform: translateY(50px); /* Start 100px below */
+        opacity: 0; /* Start invisible */
+    }
+    100% {
+        transform: translateY(0); /* End at original position */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+.content-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-heading-content, .contact-info-heading{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.secondary-heading-content{
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 22px;
+}
+
+.content-img{
+    position: absolute;
+    left: 15%;
+}
+
+/** end service section **/ 
+
+.skills-section{
+    background-color: rgb(222, 201, 174);
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 450px); /* Ensures two columns */
+    margin: auto;
+    justify-content: center; /* Center the grid */
+    margin-top: 100px;
+}
+
+.skills-list-heading{
+    color: rgb(35, 120, 52);
+    margin-bottom: 15px;
+}
+
+.skills-par{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skills-right-list{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.skills-list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    margin: 0;
+    padding: 0;
+}
+
+/** end skills section **/
+
+.contact-info-section{
+   line-height: 70px;
+   text-align: center;
+}
+
+.link-info{
+    text-decoration: none;
+}

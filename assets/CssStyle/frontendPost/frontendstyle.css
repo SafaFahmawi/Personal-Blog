@@ -1,0 +1,41 @@
+
+
+@import url("../../../static/subscribe.css");
+@import url("../../../static/btnShared.css");
+@import url("../../../static/basicShare.css");
+
+.muslim-post,
+.portfolio-post,
+.supermarket-post {
+    border: 2px solid rgb(109, 14, 14);
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 95%;
+}
+
+.muslim-card-left,
+.portfolio-card-left,
+.supermarket-card-left {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.muslim-card-right,
+.portfolio-card-right,
+.supermarket-card-right {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.muslim-par,
+.portfolio-par,
+.supermarket-par {
+    text-align: justify;
+    width: 90%;
+}
+
+.date {
+    color: gray;
+}
+
+/** end grid left **/

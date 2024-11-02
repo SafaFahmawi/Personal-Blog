@@ -1,0 +1,23 @@
+
+@import url("../IndexCssStyle/styleHeader.css");
+@import url("../IndexCssStyle/styleContent.css");
+@import url("../IndexCssStyle/styleFooter.css");
+
+body{
+    font-family: 'Arima', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; 
+    gap: 20px;
+}
+
+.btn-arrow {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 5px;
+    left: 10px;
+    z-index: 1;
+    background-color: #000000;
+    border: 1px inset #fed313;
+}

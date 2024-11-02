@@ -1,0 +1,260 @@
+/** media query for small screen **/
+
+@media (max-width: 600px) {
+
+    .layout {
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-image: none;
+        min-height: 90.625em;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .nav-linklist {
+        display: flex;
+        align-items: center;
+        gap: 0.9375em;
+        position: absolute;
+        top: 9.5em;
+        right: 1.5em;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .form {
+        position: relative;
+        right: 0.5em;
+    }
+
+    .form-control {
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        border-bottom: 0.09375em solid rgb(102, 141, 137);
+        width: 100%;
+    }
+
+    .form-control::placeholder {
+        font-size: 0.9em;
+    }
+
+    .search-btn {
+        font-size: 0.625em;
+        height: 10%;
+        margin-top: 0.625em;
+        padding-left: 1em;
+        width: 19% !important;
+    }
+
+    .link {
+        font-size: 1em;
+        padding: 0.625em;
+    }
+
+    .image {
+        position: relative;
+        left: 26%;
+        transform: translateY(-87em);
+        width: 60%;
+    }
+
+    .hero-img {
+        width: 80%;
+    }
+
+    .yellow-div {
+        height: 10%;
+        width: 90%;
+        position: absolute;
+        top: 20em;
+        right: 3em;
+        background-color: #d7c59a;
+        animation: slideInFromLeft 1s ease-out forwards;
+    }
+
+    /* Animation from Left */
+    @keyframes slideInFromLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .green-div {
+        height: 45%;
+        width: 80%;
+        position: absolute;
+        top: 30%;
+        left: 13em;
+        background-color: #afd4b3;
+        animation: slideInFromRight 1s ease-out forwards;
+    }
+
+    /* Animation from Right */
+    @keyframes slideInFromRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .blue-div {
+        background-color: transparent;
+    }
+
+    .hero-par {
+        font-size: 1.5em;
+        width: 85%;
+        line-height: 2;
+        margin-top: 15em;
+        margin-left: 3.5em;
+        text-align: center;
+    }
+
+    .part-par {
+        font-size: 1.1em;
+    }
+
+    .social-media {
+        flex-direction: row;
+        gap: 0;
+        margin-left: 6.25em;
+        justify-content: center;
+    }
+
+    .linkedin,
+    .github,
+    .facebook {
+        width: 22%;
+        margin-top: 58em;
+    }
+
+    .CV-button,
+    .hire-button {
+        width: 35%;
+        height: 4.5%;
+        font-size: large;
+        margin-left: -13em;
+        margin-bottom: 8em;
+        animation: slideInFromLeft 1s ease-out forwards;
+    }
+
+    .hire-button {
+        margin-left: -20em;
+        margin-bottom: 6.5em;
+        animation: slideInFromRight 1s ease-out forwards;
+    }
+}
+
+/** media query for medium screen**/
+
+@media (max-width: 1024px) {
+
+    .layout {
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-image: none;
+        min-height: 115vh;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .nav-linklist {
+        gap: 20px;
+        position: absolute;
+        top: 9.5em;
+        right: 1.5em;
+    }
+
+    .link {
+        padding: 0.6em;
+        font-size: 1.3em;
+    }
+
+    .image {
+        width: 60%;
+        top: 16em;
+        left: 16em;
+    }
+
+    .yellow-div {
+        height: 25px;
+        width: 220px;
+        top: 106%;
+        right: 44%;
+    }
+
+    .blue-div {
+        height: 20px;
+        width: 180px;
+        top: 105%;
+        right: 30%;
+    }
+
+    .green-div {
+        height: 15px;
+        width: 120px;
+        top: 110%;
+        left: 50%;
+    }
+
+    .hero-name {
+        font-size: 3rem;
+    }
+
+    .hero-par {
+        line-height: 1.5em;
+        width: 85%;
+        font-size: 1.8em;
+        margin-top: 14em;
+        margin-left: 3em;
+        text-align: center;
+    }
+
+    .social-media {
+        position: absolute;
+        flex-direction: column;
+        gap: 15px;
+        width: 50%;
+        top: 40em;
+        left: 9.5em;
+    }
+
+    .CV-button {
+        font-size: 1.4em;
+        left: 13em;
+        top: 47.5em;
+        width: 30%;
+        height: 4.8%;
+    }
+
+    .hire-button {
+        font-size: 1.4em;
+        left: 13em;
+        top: 50.5em;
+        width: 30%;
+        height: 4.8%;
+    }
+}

@@ -1,0 +1,38 @@
+
+.footer {
+    background-color: rgb(243, 240, 237);
+    height: 95%;
+    font-size: 17px;
+    padding-top: 50px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.first-name,
+.last-name,
+.email,
+.textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid green;
+    width: 100%;
+}
+
+.first-name-label,
+.last-name-label,
+.email-label,
+.message-label{
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.textarea::placeholder{
+    padding-top: 100px;
+    font-size: smaller;
+}

@@ -1,0 +1,105 @@
+
+/** media query for small screen **/
+
+@media (max-width: 600px) {
+
+    .footer {
+        background-image: url("../../assets/photographicImages/29.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #content-heading {
+        position: relative;
+    }
+
+    .basic-heading-contactus {
+        font-size: 2.5em;
+        text-align: center;
+        width: 100em;
+        margin-right: 3em;
+        margin-top: 6em;
+    }
+
+    .secondary-heading-contactus {
+        font-size: 1.5em;
+        width: 100em;
+        text-align: center;
+        margin-right: 5em;
+        margin-top: 1.5em;
+    }
+
+    .contact-form {
+        font-size: 1.05em;
+        margin-bottom: 10em;
+        margin-right: 4.5em;
+        line-height: 1.2em;
+    }
+
+    .name-form {
+        display: flex;
+        flex-direction: column;
+        width: 140%;
+    }
+
+    .lastname-div {
+        margin-top: -3em;
+    }
+
+    .email,
+    .textarea {
+        width: 140%;
+    }
+
+    .first-name,
+    .last-name,
+    .email,
+    .textarea {
+        margin-top: 1em;
+    }
+
+    .submit-btn {
+        width: 45%;
+        font-size: 1.1em;
+        margin-left: 4em;
+    }
+
+    .lowest-footer {
+        font-size: 1.1em;
+    }
+}
+
+/** media query for medium screen**/
+
+@media (max-width: 1024px) {
+
+    .basic-heading-contactus {
+        font-size: 3em;
+    }
+
+    .secondary-heading-contactus {
+        font-size: 1.8em;
+        margin-top: 1.2em;
+    }
+
+    .contact-form {
+        font-size: 1.4em;
+    }
+
+    .first-name,
+    .last-name,
+    .email,
+    .textarea {
+        margin-top: 1em;
+        border-bottom: 3px solid rgb(154, 89, 116);
+    }
+
+    .textarea {
+        margin-bottom: 2em;
+    }
+
+    .submit-btn {
+        width: 30%;
+        font-size: 1em;
+    }
+}

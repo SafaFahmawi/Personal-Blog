@@ -1,0 +1,164 @@
+/** media query for small screen **/
+
+@media (max-width: 600px) {
+
+    .skills-section {
+        margin-top: 6.25em;
+        min-height: 68.75em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(233, 210, 204, 0.604);
+    }
+
+    .content-heading {
+        position: relative;
+    }
+
+    .basic-heading-skills {
+        font-size: 2.5em;
+        margin-top: 1.5em;
+        margin-right: 4em;
+    }
+
+    .secondary-heading-skills {
+        font-size: 1.875em;
+        width: 50em;
+        text-align: center;
+        margin-right: 6em;
+    }
+
+    .skills-par {
+        font-size: 1.4em;
+        width: 19em;
+        margin-right: 7em;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .italic-par {
+        width: 20em;
+        font-size: 1.25em;
+        margin-right: 8.7em;
+        margin-top: 0.3125em;
+        text-align: center;
+    }
+
+    .skills-right-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills-list-heading {
+        font-size: 1.5625em;
+        margin-left: 25em;
+    }
+
+    .skills-list {
+        font-size: 1.1em;
+        margin-left: 92em;
+        width: 100em;
+    }
+
+    .skills-list li {
+        margin-top: 0.625em;
+    }
+
+    .skills-right-list {
+        position: relative;
+        bottom: 6.25em;
+        right: 6.25em;
+    }
+
+    .top-list-link,
+    .bottom-list-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-list-heading {
+        text-align: center;
+        margin-right: 25em;
+    }
+
+    .backend {
+        margin-top: 3em;
+        margin-right: 3em;
+    }
+
+    hr {
+        display: none;
+        padding: 0;
+        margin: 0;
+        height: 0;
+    }
+
+    .database {
+        margin-top: 0.005em;
+    }
+
+    .git {
+        margin-top: 2em;
+        margin-right: 3em;
+    }
+}
+
+/** media query for medium screen**/
+
+@media (max-width: 1024px) {
+
+    .skills-section {
+        height: 80vh;
+        grid-template-columns: 1fr;
+        margin-top: 5em;
+    }
+
+    .basic-heading-skills {
+        font-size: 3em;
+    }
+
+    .secondary-heading-skills {
+        font-size: 2.5em;
+    }
+
+    .skills-par {
+        font-size: 1.6em;
+        width: 90%;
+        text-align: center;
+    }
+
+    .italic-par {
+        font-size: 1.6em;
+        width: 85%;
+        text-align: center;
+    }
+
+    .skills-list-heading {
+        font-size: 1.8em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .skills-right-list {
+        margin-top: 2em;
+    }
+
+    .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills-list li {
+        font-size: 1.17em;
+    }
+
+    .top-list-link {
+        margin-right: 10em;
+    }
+
+    .bottom-list-link {
+        margin-right: 10em;
+    }
+
+}
